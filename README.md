@@ -1,5 +1,5 @@
 # SquareGames
 # The First Iranian OpenSource RPG GameMode
 
-Coming Soon...
-developer discord: Hesam Z.z#1111
+Discord: Hesam Z.z#1111 \n
+hi
