@@ -1,3 +1,2 @@
 # SquareGames
-# MTA
-First iranian RPG project OpenSource
+# First iranian RPG project OpenSource
