@@ -1,9 +1,9 @@
 local connection = nil
 
-local host = "localhost"
-local username = "root"
-local password = ""
-local database = "project"
+local host = "localhost" -- db host
+local username = "root" -- database user
+local password = "" -- database password
+local database = "project" -- database name
 
 addEventHandler("onResourceStart", resourceRoot , function ()
 	connection = dbConnect("mysql", "dbname=" .. database .. ";host=" .. host ..";charset=utf8", username, password, "tag=HesamProject;multi_statements=1")
@@ -17,6 +17,6 @@ addEventHandler("onResourceStart", resourceRoot , function ()
 	end
 end,false)
 
-function getConnection()
+function getConnection() -- its exports in other resources
 	return connection
 end
