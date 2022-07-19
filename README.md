@@ -1,2 +1,2 @@
 # SquareGames
-# First iranian RPG project OpenSource
+# The First Iranian OpenSource RPG GameMode
